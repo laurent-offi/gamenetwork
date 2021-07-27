@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "etna";
+    src: url("/assets/fonts/etna.otf") format("otf");
+}
+
+body {
+    background-color: #1c275e;
+}
+
+
+h1 {
+    font-size: 3rem;
+    color: #5ED7D4;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    color: #06E3A4;
+}
+
+
+.container {
+
+    --padding: 5rem;
+
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+
+}
