@@ -18,6 +18,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    color: aliceblue;
 }
 
 p {
@@ -28,9 +29,33 @@ p {
 
 .container {
 
-    --padding: 5rem;
+    --padding: 10rem;
 
     padding-left: var(--padding);
     padding-right: var(--padding);
 
+}
+
+button {
+    background-color: #06E3A4;
+    border-radius: 2rem;
+    border: none;
+    padding: 0.8rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #06c28d;
+}
+
+input {
+    background-color: #0F1535;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border : none;
+    color: #06E3A4;
 }

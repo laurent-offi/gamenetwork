@@ -1,0 +1,11 @@
+nav {
+    background-color: #2E3D8D;
+    padding: 1em;
+    user-select: none;
+
+}
+
+nav img {
+    width: 3rem;
+    pointer-events: none;
+}
