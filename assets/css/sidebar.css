@@ -1,0 +1,23 @@
+input {
+    width: 25%;
+    background-color: #1C275E;
+    color : #06E3A4;
+}
+
+input 
+
+.sidebar {
+    background-color: #2E3D8D;
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    width: 15%;
+    padding: 1rem;
+    color: #BABABA;
+}
+
+.feed {
+    display: flex;
+}
+
+

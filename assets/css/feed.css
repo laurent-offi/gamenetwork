@@ -1,0 +1,90 @@
+section.feed {
+    display: flex;
+}
+
+section.alignement {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+section.feed .feed-card {
+    width: 40%;
+    background-color: #2E3D8D;
+    border-radius: 1rem;
+    transition: box-shadow 0.5s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+section.feed .feed-card:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+section.feed .feed-card .feed-header {
+    display: flex;
+    flex-direction: row;
+    color: #06E3A4;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+section.feed .feed-card .feed-header img {
+    user-select: none;
+    border-radius: 100%;
+    vertical-align: middle;
+    margin-right: 1rem;
+    width: 3rem;
+}
+
+section.feed .feed-card .feed-header p {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+section.feed .feed-card .feed-header i {
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+section.feed .feed-card textarea {
+    background-color: #293887;
+    border: none;
+    resize: none;
+    width: 100%;
+    height: 8rem;
+    outline: none;
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+    user-select: none;
+}
+
+section.feed .feed-card textarea::placeholder {
+    color: #BABABA;
+}
+
+
+section.feed .feed-card .feed-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+section.feed .feed-card .feed-footer .feed-medias {
+    display: flex;
+}
+
+section.feed .feed-card .feed-footer .feed-medias button {
+    background-color: #1C275E;
+    margin-right: 0.5rem;
+    border-radius: 0.8rem;
+}
+
+section.feed .feed-card .feed-footer .feed-medias button i {
+    color: #06E3A4;
+
+}

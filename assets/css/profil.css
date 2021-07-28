@@ -1,0 +1,25 @@
+section.profil {
+    display: flex;
+}
+
+section.profil .profil-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+section .profil .profil-header {
+    display: flex;
+    flex-direction: column;
+}
+
+section .profil .profil-header img {
+    
+}
+
+section .profil .profil-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #1D2A6E;
+}
