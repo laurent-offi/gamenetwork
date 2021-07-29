@@ -4,6 +4,7 @@ nav {
     user-select: none;
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
 }
 
 nav input {
@@ -13,10 +14,18 @@ nav input {
     border : none;
     color: #06E3A4;
     width: 20%;
+=======
+    align-items: center;
+>>>>>>> 82266a6b6aa0b81607b4aafbf2830f23f710a174
 }
 
 nav img {
     width: 3rem;
     pointer-events: none;
+<<<<<<< HEAD
 
 }
+=======
+}
+
+>>>>>>> 82266a6b6aa0b81607b4aafbf2830f23f710a174

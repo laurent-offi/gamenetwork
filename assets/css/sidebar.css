@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .sidebar {
     background-color: #2E3D8D;
     height: 100%;
@@ -11,3 +12,28 @@
     display: flex;
     flex-direction: column;
 }
+=======
+input {
+    width: 25%;
+    background-color: #1C275E;
+    color : #06E3A4;
+}
+
+input 
+
+.sidebar {
+    background-color: #2E3D8D;
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    width: 15%;
+    padding: 1rem;
+    color: #BABABA;
+}
+
+.feed {
+    display: flex;
+}
+
+
+>>>>>>> 82266a6b6aa0b81607b4aafbf2830f23f710a174
