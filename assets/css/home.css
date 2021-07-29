@@ -20,7 +20,6 @@ body#home {
 .welcome-text {
     display: flex;
     flex-direction: column;
-
     text-align: center;
 }
 

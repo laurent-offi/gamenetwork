@@ -1,0 +1,33 @@
+.liste {
+    background-color: #1D2A6E;
+    color: #E0E0E0;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 25%;
+
+}
+
+.liste a {
+    color: #E0E0E0;
+    text-decoration: none;
+    text-align:center;
+    margin-top: 1rem;
+}
+
+#liste {
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 1rem;
+    background-color: #1C275E;
+    color: #06E3A4;
+}
+
+.liste button {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    padding-top: 1rem;
+    
+}

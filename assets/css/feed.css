@@ -1,0 +1,21 @@
+.feed {
+    display: flex;
+    flex-direction: row;
+}
+
+.feed-card {
+    background-color: #2E3D8D;
+    color: #06E3A4;
+}
+
+.feed-card {
+    width: 100%;
+    
+}
+
+.feed-content {
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}

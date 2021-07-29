@@ -1,0 +1,13 @@
+.sidebar {
+    background-color: #2E3D8D;
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    color: #BABABA;
+}
+
+.sidebar .icons {
+    display: flex;
+    flex-direction: column;
+}

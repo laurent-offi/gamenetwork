@@ -2,10 +2,21 @@ nav {
     background-color: #2E3D8D;
     padding: 1em;
     user-select: none;
+    display: flex;
+    justify-content: space-between;
+}
 
+nav input {
+    background-color: #0F1535;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border : none;
+    color: #06E3A4;
+    width: 20%;
 }
 
 nav img {
     width: 3rem;
     pointer-events: none;
+
 }

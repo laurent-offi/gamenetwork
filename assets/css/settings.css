@@ -1,0 +1,88 @@
+.settings {
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.sidebar {
+    display: flex;
+}
+
+.contener {
+    display: flex;
+    justify-content: space-between;
+    height: calc(100% - 80px);
+}
+
+.bloc-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.bloc {
+    background-color: #1D2A6E;
+    color: #E0E0E0;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 20%;
+    min-height: 25vh;
+    margin-right: 40px;
+}
+
+.bloc a {
+    color: #E0E0E0;
+    text-decoration: none;
+    text-align:center;
+    margin-top: 1rem;
+}
+
+.bloc input {
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 1rem;
+}
+
+.bloc button {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+.info {
+    background-color: #1D2A6E;
+    color: #E0E0E0;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 25%;
+
+}
+
+.info a {
+    color: #E0E0E0;
+    text-decoration: none;
+    text-align:center;
+    margin-top: 1rem;
+}
+
+.info input {
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 1rem;
+}
+
+.info button {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    padding-top: 1rem;
+    
+}
